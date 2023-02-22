@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, SafeAreaView, Image } from 'react-native';
 import Locations from '../mocks/locations';
 
-export default function Location({navigation}) {
+export default function Location() {
   return (
     <SafeAreaView style={styles.container}>
       <Image source={Locations[0].img} style={styles.img}/>

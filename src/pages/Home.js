@@ -15,8 +15,8 @@ export default function Home({navigation}) {
         longitudeDelta: Locations[0].coord.longitudeDelta   
     });
 
-    return (
-        <MapView provider={PROVIDER_GOOGLE} style={styles.map} initialRegion={pin}>
+    return (    
+        <MapView provider={PROVIDER_GOOGLE} style={styles.map} initialRegion={pin} >
             <Marker
                 coordinate={pin}
                 draggable={false}
